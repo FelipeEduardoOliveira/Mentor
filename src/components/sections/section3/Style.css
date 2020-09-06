@@ -1,0 +1,19 @@
+.LastSectionContainer{
+    display: flex;
+    flex-direction: column;
+    margin: 40px auto;
+    max-width: 700px;
+    /* border: 1px solid red; */
+    align-items: center;
+}
+
+.LastSectionContainer h1{
+    font-size: 35px;
+}
+
+@media(max-width: 600px){
+    .LastSectionContainer{
+        margin: 40px 0;
+        max-width: 100%;
+    }
+}

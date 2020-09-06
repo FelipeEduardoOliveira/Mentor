@@ -1,0 +1,110 @@
+.ContainerSection{
+    display: flex;
+    flex-direction: column;
+    margin: 40px auto;
+    max-width: 700px;
+    align-items: center;
+}
+
+.ContainerSection h2{
+    /* border: 1px solid red; */
+    letter-spacing: 3px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.ContainerSection p{
+    text-align: center;
+    font-size: 20px;
+    margin: 0;
+    /* border: 1px solid red; */
+    /* width: 80%; */
+}
+
+.GetStarted{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    height: 50px;
+    width: 230px;
+    font-weight: 500;
+    font-size: 15px;
+    background-color:hsl(322, 100%, 66%);
+    color: white;
+    box-shadow: 1px 2px 7px 0px silver;
+    transition: all 0.60s;
+}
+.GetStarted:hover{
+    transition: all 0.60s;
+    color: black;
+    box-shadow: 1px 2px 7px 5px silver;
+}
+
+.ImgExemplo img{
+    min-width: 800px;
+    
+    
+}
+
+.Informations{
+    display: flex;
+    margin-top: 50px;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 800px;
+}
+
+.Informations .Icon{
+    
+    width: 35px;
+}
+
+.Informations .Text1{
+    
+    margin: 0;
+    font-size: 55px;
+}
+
+.Informations .Text2{
+    margin: 0;
+    font-size: 15px;
+    width: 150px;
+}
+
+@media(max-width: 900px){
+
+
+    .ImgExemplo img{
+        min-width: 600px;
+        
+    }
+    .Informations{
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }   
+
+    .Informations .Icon{
+        display: flex;
+        margin: 0px auto;
+    }
+    .Informations .Text1{
+        display: flex;
+        margin: 0 auto;
+        width: 200px;
+        
+    }
+    
+    .Informations .Text2{
+        display: flex;
+        margin: 0 auto;
+    }
+}
+
+@media(max-width: 600px){
+    .ImgExemplo img{
+        display: none;
+    }
+    .ContainerSection {
+        /* width: 100px; */
+    }
+}

@@ -1,0 +1,41 @@
+.Container{
+    display: flex;
+    margin: 15px auto;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1400px;
+    
+}
+
+button{
+    height: 40px;
+    width: 130px;
+    border: 1px solid hsl(322, 100%, 66%);
+    border-radius: 25px;
+    color:hsl(322, 100%, 66%);
+    background-color: white;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+button:hover{
+    background-color:hsl(322, 100%, 66%);
+    color: white;
+    cursor: pointer;
+}
+
+button:focus{
+    outline: thin dotted;
+        outline: 0px auto -webkit-focus-ring-color;
+        outline-offset: 0px;
+    }
+img{   
+    width: 200px;
+}
+
+@media(max-width: 900px){
+    .Container{
+        width: 100%;
+    }
+}
