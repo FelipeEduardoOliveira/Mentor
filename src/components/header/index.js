@@ -1,5 +1,6 @@
 import React from 'react';
 import './style.css';
+import {Link} from 'react-router-dom';
 
 import img from '../../img/logo.svg';
 
@@ -7,11 +8,18 @@ import img from '../../img/logo.svg';
 function Header(props){
     return(
         <div className='Container'>
-            <img src={img}/>
+            <Link to='/'> 
+            <img src={img} alt='Logotipo'/>
+            </Link>
 
-        <button>
-            {props.btnName}
-        </button>
+
+        <Link to='/pricing'>
+            <button>
+                
+                    {props.btnName}
+                
+            </button>
+        </Link>
         </div>
     );
 }

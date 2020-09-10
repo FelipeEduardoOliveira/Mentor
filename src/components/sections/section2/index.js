@@ -11,7 +11,7 @@ function Card(props) {
 
     return (
         <div className='Card' >
-            <img className='CardBottom-Top' src={props.imgTop} />
+            <img className='CardBottom-Top' src={props.imgTop}/>
             <div className='Conteudo' style={Style}>
 
                 <div className='ConteudoTexto' >
@@ -19,10 +19,10 @@ function Card(props) {
 
                     <p>{props.Contexto}</p>
                 </div>
-                <img src={props.imgFundo} />
+                <img src={props.imgFundo} alt='Imagem que complementa o texto'/>
 
             </div>
-            <img className='CardBottom-Top' src={props.imgBottom} />
+            <img className='CardBottom-Top' src={props.imgBottom} alt='Imagem que faz o efeito de onda'/>
         </div>
     );
 }

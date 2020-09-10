@@ -1,6 +1,5 @@
 .Card{
     width: 100%;
-    /* border: 1px solid gold; */
 
     margin-top: 100px
 }
@@ -12,7 +11,6 @@ width: 100%;
 }
 
 .Conteudo{
-    /* border: 1px solid red; */
     display: flex;
     margin-top: -10px;
     justify-content: space-between;
@@ -20,13 +18,11 @@ width: 100%;
 }
 
 .Conteudo img{
-    /* border: 1px solid gold; */
     margin-right: 120px;
     width: 450px;
 }
 
 .ConteudoTexto{
-    /* border: 1px solid gold; */
     margin-left: 120px;
     max-width: 600px;
 }

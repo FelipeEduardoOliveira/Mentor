@@ -7,7 +7,6 @@
 }
 
 .ContainerSection h2{
-    /* border: 1px solid red; */
     letter-spacing: 3px;
     text-align: center;
     font-size: 30px;
@@ -17,8 +16,6 @@
     text-align: center;
     font-size: 20px;
     margin: 0;
-    /* border: 1px solid red; */
-    /* width: 80%; */
 }
 
 .GetStarted{
@@ -103,8 +100,5 @@
 @media(max-width: 600px){
     .ImgExemplo img{
         display: none;
-    }
-    .ContainerSection {
-        /* width: 100px; */
     }
 }

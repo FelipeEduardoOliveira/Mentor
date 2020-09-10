@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import Header from '../../components/header';
+
+
 import SectionOne from '../../components/sections/section1';
 import Card from '../../components/sections/section2';
 import LastSection from '../../components/sections/section3';
@@ -31,9 +32,6 @@ class Home extends Component {
     render() {
         return (
             <div>
-                <header>
-                    <Header btnName='Try Free' />
-                </header>
 
                 <section>
                     <SectionOne />
@@ -64,7 +62,6 @@ class Home extends Component {
 
                         <LastSection />
                 </section>
-
                 <footer>
                     <Footer 
                     ImgFooter={ImgFooterDesk}

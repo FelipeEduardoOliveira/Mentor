@@ -1,0 +1,70 @@
+.CardPricing{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+
+.TitlePrice{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    height: 90px;
+    border-bottom: 1px solid hsl(240, 78%, 98%);
+    
+}
+.Cifrao{
+    padding-right: 8px ;
+    font-weight: 700;
+    font-size: 28px
+}
+
+
+.Price{
+    text-align: center;
+    font-weight: 700;
+    font-size: 50px;
+    
+}
+
+.Desc{
+    text-align: center;
+    width: 80%;
+}
+.Desc p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 100%;
+    border-bottom: 1px solid hsl(240, 78%, 98%);
+}
+.Bottom{
+    border-bottom: 1px solid hsl(240, 78%, 98%);
+    
+}
+
+.ButtonLearn{
+    width: 80%;
+    border: 1px solid hsl(240, 78%, 98%);
+    border-radius: 8px;
+    background-color: hsl(237, 63%, 64%);
+    padding: 10px 30px;
+    text-transform: uppercase;
+    color: hsl(240, 78%, 98%);
+}
+.ButtonLearn:hover{
+    cursor: pointer;
+    background-color: white;
+    color: hsl(237, 63%, 64%);
+}
+
+@media(max-width: 790px){
+    .Card{
+        margin: 5px auto
+    }
+}

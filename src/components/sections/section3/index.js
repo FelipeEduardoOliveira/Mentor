@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom'
 import './Style.css';
 
 
@@ -9,9 +10,12 @@ function LastSection(){
             Ready To Build Your Community?
             </h1>
 
-            <button className='GetStarted'>
-              Get Started For Free
-            </button>
+            <Link to='/pricing'>
+                <button className='GetStarted'>
+                Get Started For Free
+                </button>
+            </Link>
+            
         </div>
     );
 }

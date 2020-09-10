@@ -16,7 +16,6 @@ margin-top: -10px;
 }
 
 .FooterContainer1{
-/* border: 1px solid gold; */
 margin-left: 50px;
 margin-bottom: 20px;
 color:white
@@ -41,10 +40,11 @@ color:white
 
 
 .FooterContainer2{
-    /* width: 390px; */
-    /* border: 1px solid gold; */
     margin-right: 50px;
     margin-bottom: 20px;
+    color:white
+}
+.FooterContainer2 h1{
     color:white
 }
 
@@ -84,7 +84,6 @@ color:white
 
     .InputNewsLetter{
         display: flex;
-        /* flex-direction: column; */
         margin: 0;
         padding: 0;
     }

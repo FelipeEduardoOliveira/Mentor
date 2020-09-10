@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {Link} from 'react-router-dom';
 import './style.css';
 
 import ImgExemplo from '../../../img/TelaExemplo.svg';
@@ -26,11 +27,13 @@ class SectionOne extends Component {
                     Huddle re-imagines the way we build communities. You have a voice, but so does
                     your audience. Create connections with your users as you engage in genuine discussion.
                 </p>
-
-                <button className='GetStarted'>
-                    Get Started For Free
-                </button>
-
+                <Link to='/pricing'>
+                    <button className='GetStarted'>
+                    
+                            Get Started For Free
+                        
+                    </button>
+                </Link>
 
                 <div className='ImgExemplo'>
                     <img src={ImgExemplo} alt='Exemplo de como ficaria o trabalho' />

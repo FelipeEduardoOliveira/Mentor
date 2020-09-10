@@ -1,14 +1,15 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 import './style.css';
 
 import Facebook from '../../img/logo-facebook.svg';
 import Instagram from '../../img/logo-instagram.svg';
-import Twitter from '../../img/logo-twitter.svg';
+import GitHub from '../../img/logo-github.svg';
 
 function Footer(props) {
     return (
         <div>
-            <img className='FooterImg' src={props.ImgFooter} />
+            <img className='FooterImg' src={props.ImgFooter} alt='Imagem de efeito de onda'/>
 
             <div className='FooterContainer'>
 
@@ -21,16 +22,27 @@ function Footer(props) {
                 </p>
 
                     <p>
-                        <img className='IconContato' src={props.phone} /> Phone: +55 (11)9.2004-8400
+                        <img className='IconContato' src={props.phone} alt='Icone de um telefone'/> Phone: +55 (11)9.2004-8400
                 </p>
                     <p>
-                        <img className='IconContato' src={props.email} /> feoliveira.eduardo@gmail.com
+                        <img className='IconContato' src={props.email} alt='Logo do Gmail' /> feoliveira.eduardo@gmail.com
                 </p>
 
                     <div className='RedeSocial'>
-                        <img src={Facebook} />
-                        <img src={Instagram}/>
-                        <img src={Twitter}/>
+                        <Link>
+                            <img src={Facebook} alt='Logo do Facebook'/>
+                        </Link>
+                        
+                        <Link>
+                            <img src={Instagram} alt='Logo do Instagram'/>
+                        </Link>
+                        
+                        <Link to='www.facebok.com'>
+                        <img src={GitHub} alt='Logo do Github'/>
+                        </Link>
+                            
+                            
+                        
                     </div>
 
                 </div>
