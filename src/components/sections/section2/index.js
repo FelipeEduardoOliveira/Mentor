@@ -22,7 +22,7 @@ function Card(props) {
                 <img src={props.imgFundo} alt='Imagem que complementa o texto'/>
 
             </div>
-            <img className='CardBottom-Top' src={props.imgBottom} alt='Imagem que faz o efeito de onda'/>
+            <img className='CardBottom-Top' src={props.imgBottom} />
         </div>
     );
 }

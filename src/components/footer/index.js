@@ -29,17 +29,19 @@ function Footer(props) {
                 </p>
 
                     <div className='RedeSocial'>
-                        <Link>
+                        <a href='https://www.facebook.com/Felipe.Eduardo.Rodrigues.D' target='_blank'>
                             <img src={Facebook} alt='Logo do Facebook'/>
-                        </Link>
+                        </a>
                         
-                        <Link>
+                        <a href='https://www.instagram.com/felipe_eduardo_oliveira/'
+                        target='_blank'>
                             <img src={Instagram} alt='Logo do Instagram'/>
-                        </Link>
+                        </a>
                         
-                        <Link to='www.facebok.com'>
+                        <a href='https://github.com/FelipeEduardoOliveira'
+                        target='_blank'>
                         <img src={GitHub} alt='Logo do Github'/>
-                        </Link>
+                        </a>
                             
                             
                         
